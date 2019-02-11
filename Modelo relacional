@@ -1,8 +1,9 @@
 Modelo relacional
 
-Cliente(cedula, nombre, apellido)
+Cliente(cedula, nombre, apellid)
 Cli_Telefono(cedula, telefono)
 Tarjetas(numero, cedula, vencimiento, personalizada)
 TarjetaCredito(numero_tarjeta, limiteCredito, categoria)
 TarjetaDebito(numero_tarjeta, saldo, cuentasAsociadas)
 Compras(numeroCompra, numeroTarjeta, fecha, importe)
+
